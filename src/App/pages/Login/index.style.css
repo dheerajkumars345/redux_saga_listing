@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+
+body {
+  background: rgb(221, 226, 226);
+  /* background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%); */
+  font-family: "work sans";
+}
+
+html {
+  font-size: 100%;
+}
+
+#loginform {
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+#headerTitle {
+  text-align: center;
+  color: rgb(0, 0, 139);
+  font-family: "open sans", sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  max-width: 100%;
+}
+
+.row input {
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(148, 161, 219, 0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.row input:focus {
+  box-shadow: inset 0px -3px 0px 0px rgb(121, 138, 170);
+  outline: none;
+}
+
+.row input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.row input:hover::-webkit-input-placeholder,
+.row input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.row label {
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgba(187, 187, 187, 0.9);
+}
+
+.row button {
+  border-radius: 10px;
+  width: 80%;
+  height: 35px;
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  background: rgb(151, 143, 124);
+  background: linear-gradient(
+    90deg,
+    rgb(80, 97, 143) 0%,
+    rgb(60, 73, 131) 100%
+  );
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+
+.row button:hover {
+  opacity: 0.8;
+}
+
+.new_user {
+  padding-top: 1rem;
+}
+
+#button {
+  padding-top: 2rem;
+}
+
+#facebookIcon {
+  background-image: url("https://image.flaticon.com/icons/svg/145/145802.svg");
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 2rem;
+}
+
+#twitterIcon {
+  background-image: url("https://image.flaticon.com/icons/svg/145/145812.svg");
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 2rem;
+}
+
+#googleIcon {
+  background-image: url("https://image.flaticon.com/icons/svg/145/145804.svg");
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 2rem;
+}
+
+#iconGroup {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+#iconGroup a {
+  margin: 0 0.6rem;
+}
+
+#alternativeLogin {
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+}
